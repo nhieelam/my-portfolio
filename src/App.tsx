@@ -3,7 +3,7 @@ import { FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
 
 function App() {
   return (
-    <div className="container">
+    <div className="container" >
       <header className="hero">
         <h1>Lâm Thái Yến Nhi</h1>
         <h2>Web Developer</h2>
