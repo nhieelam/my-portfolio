@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  color: #7dd3fc;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.section h3 {
+  border-bottom: 2px solid #7dd3fc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background: rgba(255,255,255,0.1);
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+.project {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.project a {
+  color: #7dd3fc;
+  text-decoration: none;
+}
+
+.tools {
+  font-size: 14px;
+  opacity: 0.8;
+}
